@@ -250,6 +250,12 @@ a {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Contact */
+#banner-wrapper {
+	background: url(../img/conact-banner.jpeg) fixed no-repeat center center/cover;
+	height: 40vh;
+}
+
 /* FOOTER */
 #main-footer {
 	width: 100%;
