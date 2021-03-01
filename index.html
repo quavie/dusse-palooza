@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+			integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px)"
+			href="css/mobile.css"
+		/>
+		<title>D'USSÉPALOOZA</title>
+	</head>
+	<body>
+		<!-- NAV BAR -->
+		<header id="header">
+			<div class="container">
+				<nav id="main-nav">
+					<a href="index.html"
+						><img src="./img/dp+logo+white.png" alt="Dusse Logo" id="logo"
+					/></a>
+					<ul class="nav-ul">
+						<li><a class="current" href="index.html">Home</a></li>
+						<li>
+							<a href="#">Recaps</a>
+							<div class="dropdown">
+								<ul>
+									<li><a href="">Atlanta Recap</a></li>
+									<li><a href="">MIA Recap</a></li>
+									<li><a href="">LA Recap</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">D'ussposables</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<button class="hamburger" id="hamburger">
+						<i class="fas fa-bars"></i>
+					</button>
+				</nav>
+			</div>
+		</header>
+		<!-- SHOWCASE 1 -->
+		<section id="section-one">
+			<div class="section-content">
+				<div>
+					<h1 class="l-heading">Barclays Center 12.13.19</h1>
+					<a href="#" class="btn">View Recap</a>
+				</div>
+
+				<div>
+					<a href="#section-two" class="btn-scroll"
+						><i id="demo" class="fal fa-chevron-down fa-2x"></i>
+						<!-- <span>Scroll Down</span> -->
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- SHOWCASE 2 -->
+		<section id="section-two">
+			<div class="section-content">
+				<h1 class="l-heading">Brooklyn 05.27.19</h1>
+				<a href="#" class="btn">View Recap</a>
+			</div>
+		</section>
+		<!-- FOORTER -->
+		<footer id="main-footer" class="bg-dark">
+			<div class="footer-content">
+				<div>
+					<a class="social" href="http://twitter.com" target="_blank"
+						><i class="fab fa-twitter"></i
+					></a>
+
+					<a class="social" href="http://instagram.com" target="_blank"
+						><i class="fab fa-instagram"></i
+					></a>
+				</div>
+				<div>
+					<p>Powered by TNTH</p>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.min.js"
+			integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			crossorigin="anonymous"
+		></script>
+
+		<script>
+			// smooth scrolling
+			$('.btn-scroll').on('click', function (event) {
+				if (this.hash !== '') {
+					event.preventDefault();
+					const hash = this.hash;
+					$('html, body').animate(
+						{
+							scrollTop: $(hash).offset().top,
+						},
+						800
+					);
+				}
+			});
+		</script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>

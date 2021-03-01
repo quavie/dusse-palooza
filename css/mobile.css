@@ -1,0 +1,18 @@
+#main-nav .nav-ul {
+	display: none;
+}
+
+.container {
+	padding: 1rem 2rem;
+}
+
+.hamburger {
+	display: block;
+	width: 20%;
+	text-align: end;
+}
+
+#section-one .section-content {
+	/* OVERLAY */
+	top: 90px;
+}
