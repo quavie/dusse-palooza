@@ -251,6 +251,20 @@ a.current {
 }
 
 /* Contact */
+#contact {
+	color: #000 !important;
+	width: 800px;
+	margin: auto;
+}
+
+#contact form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+}
+
 #banner-wrapper {
 	background: url(../img/conact-banner.jpeg) fixed no-repeat center bottom/cover;
 	height: 35vh;
