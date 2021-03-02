@@ -38,6 +38,17 @@ ul {
 	padding: 25px 80px;
 }
 
+.s-heading {
+	font-size: 12px !important;
+}
+
+.l-heading {
+	font-size: 2.5rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 2.5rem;
+}
+
 .bg-dark {
 	background: var(--dark-color);
 	color: var(--light-color);
@@ -72,13 +83,6 @@ a.current {
 .btn:hover {
 	background-color: var(--light-color);
 	color: var(--dark-color);
-}
-
-.l-heading {
-	font-size: 2.5rem;
-	font-weight: 600;
-	letter-spacing: 2px;
-	line-height: 2.5rem;
 }
 
 .section-content {
@@ -252,8 +256,19 @@ a.current {
 
 /* Contact */
 #banner-wrapper {
-	background: url(../img/conact-banner.jpeg) fixed no-repeat center bottom/cover;
+	background: url(../img/conact-banner.jpeg) fixed no-repeat center center/cover;
 	height: 25vh;
+}
+
+#banner-wrapper > * {
+	/* OVERLAY */
+	position: absolute;
+	height: 25%;
+	top: 90px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -285,23 +300,31 @@ p {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 20px;
+	font-size: 15px;
+	padding-bottom: 5rem;
 }
 
 .contact form label {
 	display: block;
 }
 
-.contact form label {
-	padding-bottom: 1rem;
+.contact form p label {
+	padding: 1rem 0;
 }
 
-.contact form button,
 .contact form input,
 .contact form textarea {
 	width: 100%;
-	padding: 1rem;
+	padding: 0.75rem;
 	background: #fafafa;
 	border: 1px solid #ccc;
+}
+
+.contact form button {
+	width: 20%;
+	padding: 1rem;
+	background: #fff;
+	border: 2px solid #111;
 }
 
 /* FOOTER */
