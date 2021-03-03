@@ -16,3 +16,12 @@
 	/* OVERLAY */
 	top: 90px;
 }
+
+#banner-wrapper > * {
+	/* OVERLAY */
+	top: 90px;
+}
+
+#contact .container h1 {
+	font-size: 1.5rem;
+}
