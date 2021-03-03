@@ -60,26 +60,25 @@
 					<div class="contact">
 						<h1>Contact</h1>
 						<form action="#">
-							<p>
-								Name
-								<input type="text" name="firstName" />
+							<p class="item1">
+								<input required type="text" name="firstName" />
 								<label class="s-heading">First Name</label>
 							</p>
-							<p>
-								<input type="text" name="lastName" />
+							<p class="item2">
+								<input required type="text" name="lastName" />
 								<label class="s-heading" for="#">Last Name</label>
 							</p>
-							<p>
-								<label for="#">Email Address</label>
-								<input type="email" name="email" />
+							<p class="item3">
+								<label for="#">Email Address <span>*</span></label>
+								<input required type="email" name="email" />
 							</p>
-							<p>
-								<label for="#">Subject</label>
-								<input type="text" name="subject" />
+							<p class="item4">
+								<label for="#">Subject <span>*</span></label>
+								<input required type="text" name="subject" />
 							</p>
-							<p>
-								<label for="#">Message</label>
-								<textarea name="message" rows="5"></textarea>
+							<p class="item5">
+								<label for="#">Message <span>*</span></label>
+								<textarea required name="message" rows="5"></textarea>
 							</p>
 							<p class="button">
 								<button>Submit</button>
