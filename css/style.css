@@ -195,54 +195,6 @@ a.current {
 	right: 0;
 }
 
-/* #section-one .section-content a i::after {
-	content: '';
-	padding-top: 5;
-} */
-
-/* 
-#section-one .section-content a .btn-scroll {
-	display: fle;
-}
-
-#section-one .section-content a i {
-	color: #fff;
-	display: inline-block;
-	position: absolute;
-	bottom: 5%;
-	color: #fff;
-}
-
-#section-one .section-content a:hover i {
-	display: none;
-}
-
-#section-one .section-content a:hover i + span {
-	display: block;
-}
-
-#section-one .section-content a span {
-	display: none;
-	text-align: center;
-}
-
-#section-one .section-content a span {
-	display: none;
-	position: absolute;
-	bottom: 5%;
-	color: #fff;
-	margin-left: -70px;
-	z-index: 10;
-}
-
-#section-one .section-content a:hover span {
-	display: block;
-}
-
-#section-one .section-content a:hover i {
-	display: none;
-} */
-
 /* SECTION TWO */
 #section-two {
 	background: url('../img/sebastian-ervi-xJt6Gs20Uqc-unsplash.jpg') fixed
